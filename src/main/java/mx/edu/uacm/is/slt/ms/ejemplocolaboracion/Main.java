@@ -4,10 +4,11 @@ package mx.edu.uacm.is.slt.ms.ejemplocolaboracion;
  * Hello world!
  *
  */
-public class Main 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class Main {
+    public static void main( String[] args )    {
+        ControladorA controlA=new ControladorA();
+        
+        controlA.eventoA();
+        controlA.eventoB();
     }
 }
